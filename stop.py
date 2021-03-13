@@ -14,7 +14,7 @@ import os, socket, errno, time
 
 # Declaring part of ports.
 # Getting port suffix from current  redis config.
-ports = [1100, 1200, 1300, 900, 800]
+ports = [1100, 1200, 1300, 900, 800, 500]
 lines = {}
 port_suffix = 0;
 sockets = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
